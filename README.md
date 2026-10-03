@@ -1,46 +1,62 @@
+# Minecraft Modpack
+
+**Minecraft:** 1.21.1
+**Loader:** NeoForge
+
 ## 🌍 World Generation
 
-* **Tectonic** — Dramatically enhanced terrain and landscapes.
-* **Terralith** — Expands Minecraft with varied biomes and terrain.
-* **Lithostitched** — World-generation framework supporting expanded terrain and biome features.
+* **Tectonic** — Dramatically reshapes terrain with larger mountains, valleys, and more natural landscapes.
+* **Terralith** — Adds a huge variety of enhanced vanilla-style biomes and terrain.
+* **Lithostitched** — World-generation library required by several terrain and generation systems.
 
 ## ⚙️ Create & Engineering
 
-* **Create** — Machinery, automation, factories and engineering.
-* **Create Crafts & Additions** — Adds electricity and new Create automation options.
-* **Small Ships** — Simple sailing ships for exploring oceans and islands.
+* **Create** — Core engineering and automation system built around mechanical power, machines, and factories.
+* **Create Crafts & Additions** — Adds electrical systems and additional Create-compatible machinery.
+* **Create: Copycats+** — Allows blocks to visually copy other blocks, greatly expanding Create-based building possibilities.
 
-## 🧭 Exploration & Multiplayer
+## 🚂 Transport & Ships
 
-* **Xaero's Minimap** — Lightweight minimap and navigation.
-* **Xaero's World Map** — Full-screen explored world map.
-* **Open Parties and Claims** — Team management and land claiming.
-* **Simple Voice Chat** — Proximity voice chat for multiplayer.
+* **Steam 'n' Rails** — Expands Create's railway system with additional trains, tracks, signals, and railway features.
+* **Small Ships** — Adds controllable sailing ships for exploring oceans and travelling with friends.
+
+## 🗺️ Exploration & Multiplayer
+
+* **Xaero's Minimap** — Lightweight minimap for navigation and exploration.
+* **Xaero's World Map** — Full-screen world map for planning routes and discovering explored areas.
+* **Open Parties and Claims** — Party system and land claims for multiplayer protection.
+* **Simple Voice Chat** — Proximity voice communication between players.
 
 ## 🏠 Building & Decoration
 
-* **Handcrafted** — Furniture and decorative building pieces.
+* **Handcrafted** — Adds detailed furniture and decorative blocks.
+* **Create: Copycats+** — Flexible building blocks that integrate naturally with Create machinery and structures.
 
-## 🛠️ Quality of Life
+## 🎒 Storage & Quality of Life
 
-* **EMI** — Recipe and item browser.
-* **Jade** — Information overlay for blocks and entities.
-* **AppleSkin** — Detailed hunger and saturation information.
-* **Mouse Tweaks** — Improved inventory management.
-* **Resourceful Lib** — Library required by supported mods.
+* **Sophisticated Backpacks** — Upgradeable backpacks with expanded storage and useful automation features.
+* **EMI** — Recipe and item browser for quickly finding crafting recipes and uses.
+* **Jade** — Displays useful information about blocks, entities, and machines.
+* **AppleSkin** — Provides additional food and hunger information.
+* **Mouse Tweaks** — Improves inventory management and item movement.
+* **Resourceful Lib** — Library dependency used by supported mods.
 
-## 🚀 Performance
+## ⚡ Performance
 
-* **Sodium** — Major rendering performance improvements.
-* **ImmediatelyFast** — Optimizes various Minecraft rendering systems.
-* **ModernFix** — General performance, memory and loading improvements.
+* **Sodium** — Improves rendering performance and overall FPS.
+* **ImmediatelyFast** — Optimizes several rendering systems for improved performance.
+* **ModernFix** — General performance, memory, and loading optimizations.
 * **FerriteCore** — Reduces memory usage.
-* **C2ME** — Improves chunk generation and loading.
-* **Entity Culling** — Prevents rendering of hidden entities and block entities.
+* **C2ME** — Improves chunk generation and loading through parallel processing.
+* **Entity Culling** — Prevents hidden entities and block entities from being rendered unnecessarily.
 
-## 🌄 Graphics
+## 🌅 Graphics & Rendering
 
-* **Distant Horizons** — Extremely long-distance terrain rendering.
-* **Iris Shaders** — Shader support.
-* **Complementary Reimagined** — Enhanced lighting, atmosphere and visual effects.
-* **PrettyRealistic PBR** — Higher-detail textures and PBR materials.
+* **Distant Horizons** — Extends the visible world far beyond normal Minecraft render distance using distant terrain LODs.
+* **Iris Shaders** — Shader support for the NeoForge client.
+* **Complementary Shaders – Reimagined** — Main shader pack for enhanced lighting, atmosphere, water, shadows, and overall visuals.
+* **PrettyRealistic PBR** — 32× physically based resource pack for enhanced textures and materials.
+
+Explore huge landscapes, sail between islands, build railways, construct factories, automate production, establish settlements, and travel across a beautiful world with friends.
+
+The pack is intentionally curated rather than overloaded with mods.
