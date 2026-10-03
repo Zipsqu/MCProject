@@ -1,58 +1,63 @@
-# Minecraft Modpack
+# MC Project — Modpack
 
 **Minecraft:** 1.21.1
 **Loader:** NeoForge
 
+---
+
 ## 🌍 World Generation
 
-* **Tectonic** — Dramatically reshapes terrain with larger mountains, valleys, and more natural landscapes.
-* **Terralith** — Adds a huge variety of enhanced vanilla-style biomes and terrain.
-* **Lithostitched** — World-generation library required by several terrain and generation systems.
+* **Tectonic** — Large-scale terrain generation with dramatic mountains, valleys, coastlines, and oceans.
+* **Terralith** — Expands vanilla world generation with a large variety of new biomes and terrain.
+* **Lithostitched** — World-generation framework used by terrain and biome mods.
 
 ## ⚙️ Create & Engineering
 
-* **Create** — Core engineering and automation system built around mechanical power, machines, and factories.
-* **Create Crafts & Additions** — Adds electrical systems and additional Create-compatible machinery.
-* **Create: Copycats+** — Allows blocks to visually copy other blocks, greatly expanding Create-based building possibilities.
+* **Create** — Mechanical automation, factories, contraptions, logistics, and engineering.
+* **Create Crafts & Additions** — Adds electrical systems and additional automation options to Create.
+* **Create: Copycats+** — Copycat blocks for more flexible building and detailed Create contraptions.
 
 ## 🚂 Transport & Ships
 
-* **Steam 'n' Rails** — Expands Create's railway system with additional trains, tracks, signals, and railway features.
-* **Small Ships** — Adds controllable sailing ships for exploring oceans and travelling with friends.
+* **Steam 'n' Rails** — Expands Create's railway system with new trains, tracks, signals, and railway features.
+* **Small Ships** — Adds functional sailing ships for exploring oceans and travelling together.
 
-## 🗺️ Exploration & Multiplayer
+## 🧭 Exploration & Multiplayer
 
 * **Xaero's Minimap** — Lightweight minimap for navigation and exploration.
-* **Xaero's World Map** — Full-screen world map for planning routes and discovering explored areas.
-* **Open Parties and Claims** — Party system and land claims for multiplayer protection.
-* **Simple Voice Chat** — Proximity voice communication between players.
+* **Xaero's World Map** — Full-screen world map showing explored terrain.
+* **Open Parties and Claims** — Multiplayer parties, chunk claiming, and protection.
+* **Simple Voice Chat** — Proximity-based voice communication.
+* **GraveStone Mod** — Creates a gravestone containing your inventory when you die, allowing you to recover your equipment.
 
-## 🏠 Building & Decoration
+## 🏗️ Building & Decoration
 
-* **Handcrafted** — Adds detailed furniture and decorative blocks.
-* **Create: Copycats+** — Flexible building blocks that integrate naturally with Create machinery and structures.
+* **Handcrafted** — Adds a large selection of decorative furniture and building blocks.
+* **Create: Copycats+** — Flexible copycat blocks for detailed construction and custom designs.
 
-## 🎒 Storage & Quality of Life
+## 🎒 Storage & QoL
 
-* **Sophisticated Backpacks** — Upgradeable backpacks with expanded storage and useful automation features.
+* **Sophisticated Backpacks** — Upgradeable backpacks with additional storage and useful features.
 * **EMI** — Recipe and item browser for quickly finding crafting recipes and uses.
 * **Jade** — Displays useful information about blocks, entities, and machines.
-* **AppleSkin** — Provides additional food and hunger information.
+* **AppleSkin** — Shows additional hunger and saturation information.
 * **Mouse Tweaks** — Improves inventory management and item movement.
-* **Resourceful Lib** — Library dependency used by supported mods.
+* **Resourceful Lib** — Library required by supported mods.
 
-## ⚡ Performance
+## 🚀 Performance
 
-* **Sodium** — Improves rendering performance and overall FPS.
-* **ImmediatelyFast** — Optimizes several rendering systems for improved performance.
-* **ModernFix** — General performance, memory, and loading optimizations.
+* **Sodium** — Improves rendering performance and FPS.
+* **ImmediatelyFast** — Optimizes immediate-mode rendering for improved performance.
+* **ModernFix** — Memory, loading, and general performance improvements.
 * **FerriteCore** — Reduces memory usage.
 * **C2ME** — Improves chunk generation and loading through parallel processing.
-* **Entity Culling** — Prevents hidden entities and block entities from being rendered unnecessarily.
+* **Entity Culling** — Prevents rendering of entities that cannot currently be seen.
 
-## 🌅 Graphics & Rendering
+## 🎨 Graphics
 
-* **Distant Horizons** — Extends the visible world far beyond normal Minecraft render distance using distant terrain LODs.
-* **Iris Shaders** — Shader support for the NeoForge client.
-* **Complementary Shaders – Reimagined** — Main shader pack for enhanced lighting, atmosphere, water, shadows, and overall visuals.
-* **PrettyRealistic PBR** — 32× physically based resource pack for enhanced textures and materials.
+* **Distant Horizons** — Extends the visible world with distant terrain beyond normal render distance.
+* **Iris Shaders** — Shader support for high-quality Minecraft visuals.
+* **Complementary Shaders — Reimagined** — Main shader pack for enhanced lighting, atmosphere, water, and environments.
+* **PrettyRealistic PBR** — 32× physically based resource pack for improved materials and textures.
+
+---
