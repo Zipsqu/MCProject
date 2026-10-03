@@ -1,30 +1,46 @@
-### 🌍 World Generation
+## 🌍 World Generation
 
-* Tectonic 3.0.28
-* Terralith 2.6.2
-* Lithostitched 1.8.0
+* **Tectonic** — Dramatically enhanced terrain and landscapes.
+* **Terralith** — Expands Minecraft with varied biomes and terrain.
+* **Lithostitched** — World-generation framework supporting expanded terrain and biome features.
 
-### ⚙️ Gameplay
+## ⚙️ Create & Engineering
 
-* Create 6.0.10
-* Steam 'n' Rails 0.3.0-beta.2
+* **Create** — Machinery, automation, factories and engineering.
+* **Create Crafts & Additions** — Adds electricity and new Create automation options.
+* **Small Ships** — Simple sailing ships for exploring oceans and islands.
 
-### 🚀 Performance
+## 🧭 Exploration & Multiplayer
 
-* Sodium 0.8.13
-* ImmediatelyFast 1.6.14
-* ModernFix 5.27.24
-* FerriteCore 7.0.3
-* C2ME 0.4.0-alpha.0.122
-* Entity Culling 1.11.2
+* **Xaero's Minimap** — Lightweight minimap and navigation.
+* **Xaero's World Map** — Full-screen explored world map.
+* **Open Parties and Claims** — Team management and land claiming.
+* **Simple Voice Chat** — Proximity voice chat for multiplayer.
 
-### 🌄 Graphics
+## 🏠 Building & Decoration
 
-* Distant Horizons 3.3.3
-* Iris Shaders 1.8.14-beta.1
-* Complementary Reimagined r5.9.3
-* PrettyRealistic PBR 0.44 (32x)
+* **Handcrafted** — Furniture and decorative building pieces.
 
-### 🧭 Navigation
+## 🛠️ Quality of Life
 
-* Xaero's Minimap 26.5.0
+* **EMI** — Recipe and item browser.
+* **Jade** — Information overlay for blocks and entities.
+* **AppleSkin** — Detailed hunger and saturation information.
+* **Mouse Tweaks** — Improved inventory management.
+* **Resourceful Lib** — Library required by supported mods.
+
+## 🚀 Performance
+
+* **Sodium** — Major rendering performance improvements.
+* **ImmediatelyFast** — Optimizes various Minecraft rendering systems.
+* **ModernFix** — General performance, memory and loading improvements.
+* **FerriteCore** — Reduces memory usage.
+* **C2ME** — Improves chunk generation and loading.
+* **Entity Culling** — Prevents rendering of hidden entities and block entities.
+
+## 🌄 Graphics
+
+* **Distant Horizons** — Extremely long-distance terrain rendering.
+* **Iris Shaders** — Shader support.
+* **Complementary Reimagined** — Enhanced lighting, atmosphere and visual effects.
+* **PrettyRealistic PBR** — Higher-detail textures and PBR materials.
