@@ -1,1 +1,12 @@
-# MCProject
+| Category                           | Mod                          | What it does                                                                                                  | Keep?            |
+| ---------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 🌍 **World generation**            | **Tectonic**                 | Dramatically reshapes terrain generation — bigger mountains, valleys, cliffs and more interesting landscapes. | **YES**          |
+| 🌍 **World generation**            | **Terralith**                | Adds a huge variety of new overworld biomes and terrain while using vanilla blocks.                           | **YES**          |
+| 🏗️ **Gameplay / Engineering**     | **Create**                   | The big mechanical/automation mod: factories, machines, belts, contraptions, trains, power systems, etc.      | **YES**          |
+| 🚂 **Create expansion**            | **Steam 'n' Rails**          | Expands Create's railway system with more train/rail features.                                                | **YES, for now** |
+| 🔭 **Rendering / View distance**   | **Distant Horizons**         | Creates simplified distant terrain (LODs), allowing you to see *far* beyond normal Minecraft render distance. | **YES**          |
+| 🎨 **Shaders**                     | **Iris Shaders**             | Provides the shader system that lets Minecraft use shader packs such as Complementary.                        | **YES**          |
+| ✨ **Shaders**                      | **Complementary Reimagined** | Actually provides the lighting, shadows, atmosphere, clouds, water/reflections, etc.                          | **YES**          |
+| ⚡ **Rendering optimisation**       | **Sodium**                   | Replaces/optimises major parts of Minecraft's rendering engine to improve FPS and reduce rendering overhead.  | **YES**          |
+| 🧱 **Worldgen dependency/library** | **Lithostitched**            | A library/framework used by some world-generation mods. It isn't something you interact with directly.        | **YES**          |
+| 🗺️ **Navigation**                 | **Xaero's Minimap**          | Adds the minimap in the corner and related navigation features.                                               | **Probably YES** |
