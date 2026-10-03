@@ -641,15 +641,13 @@ footer {
         font-size: 19px;
     }
 }
-```
 
-```css
 /* -------------------------
    How to Play
 ------------------------- */
 
 .how-to-play {
-    max-width: 900px;
+    max-width: var(--max-width);
     margin: 0 auto;
 
     padding: 0 24px 110px;
@@ -657,17 +655,32 @@ footer {
 
 
 /* -------------------------
-   Setup Steps
+   Setup Grid
+------------------------- */
+
+.setup-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* -------------------------
+   Setup Cards
 ------------------------- */
 
 .setup-step {
-    display: grid;
-    grid-template-columns: 64px 1fr;
+    min-height: 280px;
 
-    gap: 22px;
+    display: flex;
+    flex-direction: column;
 
-    margin-top: 14px;
-    padding: 30px;
+    padding: 26px;
 
     background: var(--panel);
 
@@ -676,24 +689,29 @@ footer {
 
     transition:
         background 0.2s ease,
-        border-color 0.2s ease;
+        border-color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .setup-step:hover {
     background: var(--panel-hover);
     border-color: #353d43;
+
+    transform: translateY(-2px);
 }
 
 
 /* Step number */
 
 .setup-step-number {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 22px;
 
     background: var(--background-light);
 
@@ -713,18 +731,18 @@ footer {
 .setup-step-content h3 {
     margin-top: 5px;
 
-    font-size: 22px;
+    font-size: 21px;
+    line-height: 1.2;
+
     letter-spacing: -0.02em;
 }
 
 .setup-step-content > p {
-    max-width: 650px;
-
     margin-top: 10px;
 
     color: var(--text-muted);
 
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6;
 }
 
@@ -738,17 +756,18 @@ footer {
     align-items: center;
     justify-content: center;
 
-    margin-top: 20px;
-    padding: 11px 17px;
+    width: fit-content;
+
+    margin-top: auto;
+    padding: 10px 15px;
 
     background: var(--accent);
     color: #111;
 
     border: 1px solid var(--accent);
-
     border-radius: 6px;
 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
 
     text-decoration: none;
@@ -776,10 +795,10 @@ footer {
     align-items: center;
     justify-content: space-between;
 
-    gap: 20px;
+    gap: 15px;
 
-    margin-top: 20px;
-    padding: 16px 18px;
+    margin-top: auto;
+    padding: 14px 16px;
 
     background: var(--background-light);
 
@@ -790,7 +809,7 @@ footer {
 .server-address span {
     color: var(--text-muted);
 
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 700;
     letter-spacing: 0.08em;
 }
@@ -800,7 +819,7 @@ footer {
 
     color: var(--text);
 
-    font-size: 14px;
+    font-size: 13px;
 }
 
 
@@ -809,45 +828,50 @@ footer {
 ------------------------- */
 
 .setup-note {
-    margin-top: 14px !important;
+    margin-top: 12px !important;
 
-    font-size: 12px !important;
+    font-size: 11px !important;
 }
 
 
 /* -------------------------
-   Tips
+   Practical Settings
 ------------------------- */
 
-.tips-grid {
+.settings-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
 
-    gap: 10px;
+    gap: 8px;
 
-    margin-top: 22px;
+    margin-top: 18px;
 }
 
-.tip {
-    padding: 18px;
+.setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 10px 12px;
 
     background: var(--background-light);
 
     border: 1px solid var(--border);
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
-.tip h4 {
-    font-size: 14px;
-}
-
-.tip p {
-    margin-top: 7px;
-
+.setting span {
     color: var(--text-muted);
 
-    font-size: 12px;
-    line-height: 1.55;
+    font-size: 11px;
+}
+
+.setting strong {
+    font-size: 11px;
+    font-weight: 650;
+
+    text-align: right;
 }
 
 
@@ -861,17 +885,20 @@ footer {
         padding-bottom: 80px;
     }
 
-    .setup-step {
+    .setup-grid {
         grid-template-columns: 1fr;
 
-        gap: 18px;
+        max-width: 100%;
+    }
+
+    .setup-step {
+        min-height: 0;
 
         padding: 22px;
     }
 
     .setup-step-number {
-        width: 40px;
-        height: 40px;
+        margin-bottom: 18px;
     }
 
     .setup-step-content h3 {
@@ -882,18 +909,11 @@ footer {
         align-items: flex-start;
         flex-direction: column;
 
-        gap: 7px;
+        gap: 6px;
     }
 
     .server-address strong {
         word-break: break-all;
     }
 
-    .tips-grid {
-        grid-template-columns: 1fr;
-    }
-
 }
-```
-
-
