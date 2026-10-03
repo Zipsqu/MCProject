@@ -8,7 +8,7 @@
 ## 🌍 World Generation
 
 * **Tectonic** — Large-scale terrain generation with dramatic mountains, valleys, coastlines, and oceans.
-* **Terralith** — Expands vanilla world generation with a large variety of new biomes and terrain.
+* **Terralith** — Expands world generation with a large variety of new biomes and terrain.
 * **Lithostitched** — World-generation framework used by terrain and biome mods.
 
 ## ⚙️ Create & Engineering
@@ -21,6 +21,10 @@
 
 * **Steam 'n' Rails** — Expands Create's railway system with new trains, tracks, signals, and railway features.
 * **Small Ships** — Adds functional sailing ships for exploring oceans and travelling together.
+
+## 🔫 Combat
+
+* **Vic's Point Blank** — Adds modern firearms, weapons, attachments, and shooting mechanics.
 
 ## 🧭 Exploration & Multiplayer
 
@@ -38,6 +42,8 @@
 ## 🎒 Storage & QoL
 
 * **Sophisticated Backpacks** — Upgradeable backpacks with additional storage and useful features.
+* **Sophisticated Storage** — Highly configurable storage blocks with upgrades and expanded storage options.
+* **Sophisticated Core** — Core library required by Sophisticated Backpacks and Sophisticated Storage.
 * **EMI** — Recipe and item browser for quickly finding crafting recipes and uses.
 * **Jade** — Displays useful information about blocks, entities, and machines.
 * **AppleSkin** — Shows additional hunger and saturation information.
