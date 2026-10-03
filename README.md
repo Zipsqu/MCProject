@@ -56,7 +56,3 @@
 * **Iris Shaders** — Shader support for the NeoForge client.
 * **Complementary Shaders – Reimagined** — Main shader pack for enhanced lighting, atmosphere, water, shadows, and overall visuals.
 * **PrettyRealistic PBR** — 32× physically based resource pack for enhanced textures and materials.
-
-Explore huge landscapes, sail between islands, build railways, construct factories, automate production, establish settlements, and travel across a beautiful world with friends.
-
-The pack is intentionally curated rather than overloaded with mods.
