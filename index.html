@@ -1,186 +1,262 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Capital Express</title>
-    <meta name="description" content="Capital Express — A curated Minecraft multiplayer experience.">
 
-    <link rel="stylesheet" href="style.css">
+<title>Capital Express</title>
+<meta name="description" content="Capital Express — A curated Minecraft multiplayer experience.">
+
+<link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
 
-    <header class="navbar">
-        <div class="nav-container">
 
-            <a href="index.html" class="logo">
-                Capital Express
-            </a>
+<header class="navbar">
+    <div class="nav-container">
 
-            <nav>
-                <a href="index.html" class="active">Home</a>
-                <a href="how-to-play.html">How to Play</a>
-                <a href="faq.html">FAQ</a>
-                <a href="about.html">About</a>
-            </nav>
+        <a href="index.html" class="logo">
+            Capital Express
+        </a>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="how-to-play.html">How to Play</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                MINECRAFT 1.21.1 · NEOFORGE
+            </p>
+
+            <h1>Capital Express</h1>
+
+            <p class="tagline">
+                Explore. Build. Connect.
+            </p>
+
+            <p class="intro">
+                Choose your kingdom, establish a capital, build your industry, and expand your reach through roads, rails, ships, and air.
+            </p>
 
         </div>
-    </header>
+
+    </section>
 
 
-    <main>
+    <!-- Server Information -->
+    <section class="server-section">
 
-        <!-- Hero -->
-        <section class="hero">
+        <div class="server-card">
 
-            <div class="hero-content">
-
-                <p class="eyebrow">
-                    MINECRAFT 1.21.1 · NEOFORGE
-                </p>
-
-                <h1>Capital Express</h1>
-
-                <p class="tagline">
-                    Explore. Build. Connect.
-                </p>
-
-                <p class="intro">
-                    Choose your kingdom, establish a capital, build your industry, and expand your reach through roads, rails, ships, and air.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- Server Information -->
-        <section class="server-section">
-
-            <div class="server-card">
-
-                <span class="card-label">
-                    SERVER STATUS
-                </span>
-
-                <div class="status">
-                    <span class="status-dot coming-soon"></span>
-                    <span>Coming Soon</span>
-                </div>
-
-                <p>
-                    The server is currently being tested and prepared.
-                </p>
-
-            </div>
-
-
-            <div class="server-card">
-
-                <span class="card-label">
-                    PLAYERS ONLINE
-                </span>
-
-                <div class="big-value">
-                    —
-                </div>
-
-                <p>
-                    Live player information will appear here once the server
-                    is online.
-                </p>
-
-            </div>
-
-
-            <div class="server-card">
-
-                <span class="card-label">
-                    WORLD MAP
-                </span>
-
-                <div class="big-value">
-                    —
-                </div>
-
-                <p>
-                    An interactive map will be available once the server
-                    is deployed.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- Development -->
-        <section class="development">
-
-            <div class="section-heading">
-                <span class="eyebrow">PROJECT STATUS</span>
-                <h2>Current Development</h2>
-            </div>
-
-
-            <div class="development-list">
-
-                <div class="development-item">
-                    <div>
-                        <strong>Modpack</strong>
-                        <span>Client testing</span>
-                    </div>
-
-                    <span class="badge testing">
-                        Finished ✅
-                    </span>
-                </div>
-
-
-                <div class="development-item">
-                    <div>
-                        <strong>Server</strong>
-                        <span>Preparation</span>
-                    </div>
-
-                    <span class="badge preparation">
-                        PREPARING
-                    </span>
-                </div>
-
-
-                <div class="development-item">
-                    <div>
-                        <strong>Live Map</strong>
-                        <span>Waiting for server deployment</span>
-                    </div>
-
-                    <span class="badge upcoming">
-                        SOON
-                    </span>
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <div class="footer-container">
-
-            <span>Capital Express</span>
-
-            <span>
-                Private Minecraft Project
+            <span class="card-label">
+                SERVER STATUS
             </span>
 
+            <div class="status">
+                <span id="status-dot" class="status-dot coming-soon"></span>
+                <span id="server-status">Checking...</span>
+            </div>
+
+            <p id="server-message">
+                Checking server status...
+            </p>
+
         </div>
 
-    </footer>
+
+        <div class="server-card">
+
+            <span class="card-label">
+                PLAYERS ONLINE
+            </span>
+
+            <div class="big-value" id="player-count">
+                —
+            </div>
+
+            <p id="player-message">
+                Checking live player information...
+            </p>
+
+        </div>
+
+
+        <div class="server-card">
+
+            <span class="card-label">
+                WORLD MAP
+            </span>
+
+            <div class="big-value">
+                —
+            </div>
+
+            <p>
+                An interactive map will be available once the server
+                is deployed.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Development -->
+    <section class="development">
+
+        <div class="section-heading">
+            <span class="eyebrow">PROJECT STATUS</span>
+            <h2>Current Development</h2>
+        </div>
+
+
+        <div class="development-list">
+
+            <div class="development-item">
+                <div>
+                    <strong>Modpack</strong>
+                    <span>Client testing</span>
+                </div>
+
+                <span class="badge testing">
+                    Finished ✅
+                </span>
+            </div>
+
+
+            <div class="development-item">
+                <div>
+                    <strong>Server</strong>
+                    <span>Preparation</span>
+                </div>
+
+                <span class="badge preparation">
+                    PREPARING
+                </span>
+            </div>
+
+
+            <div class="development-item">
+                <div>
+                    <strong>Live Map</strong>
+                    <span>Waiting for server deployment</span>
+                </div>
+
+                <span class="badge upcoming">
+                    SOON
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <span>Capital Express</span>
+
+        <span>
+            Private Minecraft Project
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script>
+    const SERVER_ADDRESS = "185.83.154.42:25599";
+
+    async function updateServerStatus() {
+        const statusText = document.getElementById("server-status");
+        const statusDot = document.getElementById("status-dot");
+        const statusMessage = document.getElementById("server-message");
+        const playerCount = document.getElementById("player-count");
+        const playerMessage = document.getElementById("player-message");
+
+        try {
+            const response = await fetch(
+                `https://api.mcstatus.io/v2/status/java/${SERVER_ADDRESS}`
+            );
+
+            if (!response.ok) {
+                throw new Error("Status API request failed");
+            }
+
+            const data = await response.json();
+
+            if (data.online) {
+                statusText.textContent = "Online";
+                statusDot.className = "status-dot online";
+
+                statusMessage.textContent =
+                    "The server is currently online.";
+
+                const online = data.players?.online ?? 0;
+                const max = data.players?.max ?? "?";
+
+                playerCount.textContent = `${online} / ${max}`;
+
+                playerMessage.textContent =
+                    "Players currently online.";
+            } else {
+                statusText.textContent = "Offline";
+                statusDot.className = "status-dot offline";
+
+                statusMessage.textContent =
+                    "The server is currently offline.";
+
+                playerCount.textContent = "0";
+
+                playerMessage.textContent =
+                    "No players are currently online.";
+            }
+
+        } catch (error) {
+            console.error("Could not retrieve Minecraft server status:", error);
+
+            statusText.textContent = "Unavailable";
+            statusDot.className = "status-dot coming-soon";
+
+            statusMessage.textContent =
+                "Unable to retrieve the server status.";
+
+            playerCount.textContent = "—";
+
+            playerMessage.textContent =
+                "Live player information is temporarily unavailable.";
+        }
+    }
+
+    // Check immediately when the page loads
+    updateServerStatus();
+
+    // Refresh every 30 seconds
+    setInterval(updateServerStatus, 30000);
+</script>
 
 
 </body>
