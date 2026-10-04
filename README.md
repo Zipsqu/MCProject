@@ -6,3 +6,4 @@ https://zipsqu.github.io/MCProject/
 * [ ] Update **About** page with the new mod listing
 * [ ] Configure the server and generate the world
 * [ ] Set up **Teams & Territory**
+* [ ] Change naming to Capital Express**
