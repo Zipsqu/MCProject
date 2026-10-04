@@ -917,49 +917,67 @@ footer {
     }
 
 }
-
-
 /* -------------------------
 FAQ
 ------------------------- */
 
 .faq {
-max-width: var(--max-width);
+max-width: 820px;
 margin: 0 auto;
 
-
+```
 padding: 0 24px 110px;
-
+```
 
 }
 
 .faq-list {
-border-top: 1px solid var(--border);
+display: grid;
+gap: 10px;
 }
 
 .faq-item {
-border-bottom: 1px solid var(--border);
+background: var(--panel);
+
+```
+border: 1px solid var(--border);
+border-radius: 8px;
+
+overflow: hidden;
+
+transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+```
+
 }
+
+.faq-item:hover {
+background: var(--panel-hover);
+border-color: #353d43;
+}
+
+/* Question */
 
 .faq-question {
 display: flex;
 align-items: center;
 justify-content: space-between;
 
+```
+gap: 24px;
 
-gap: 20px;
-
-padding: 22px 4px;
+padding: 22px 24px;
 
 cursor: pointer;
 
 list-style: none;
 
-font-size: 16px;
+font-size: 15px;
 font-weight: 600;
 
 transition: color 0.2s ease;
-
+```
 
 }
 
@@ -970,47 +988,70 @@ display: none;
 .faq-question::after {
 content: "+";
 
+```
+width: 28px;
+height: 28px;
+
+display: flex;
+align-items: center;
+justify-content: center;
 
 flex-shrink: 0;
 
+background: var(--background-light);
+
+border: 1px solid var(--border);
+border-radius: 6px;
+
 color: var(--accent);
 
-font-size: 20px;
+font-size: 18px;
 font-weight: 400;
 
-transition: transform 0.2s ease;
+transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+```
 
-
-}
-
-.faq-item[open] .faq-question::after {
-transform: rotate(45deg);
 }
 
 .faq-question:hover {
 color: var(--accent);
 }
 
+.faq-item[open] .faq-question::after {
+transform: rotate(45deg);
+background: var(--panel);
+}
+
+/* Answer */
+
 .faq-answer {
-max-width: 760px;
+max-width: 720px;
 
+```
+margin: -2px 24px 0;
 
-padding: 0 40px 24px 4px;
+padding: 0 0 24px;
 
 color: var(--text-muted);
 
 font-size: 14px;
 line-height: 1.7;
+```
 
+}
 
+.faq-answer p {
+padding-top: 2px;
 }
 
 .faq-answer a {
 color: var(--accent);
 
-
+```
 text-decoration: none;
-
+```
 
 }
 
@@ -1024,21 +1065,33 @@ FAQ Mobile
 
 @media (max-width: 700px) {
 
-
+```
 .faq {
-    padding-bottom: 80px;
+    padding: 0 20px 80px;
+}
+
+.faq-list {
+    gap: 8px;
 }
 
 .faq-question {
-    padding: 20px 2px;
+    padding: 19px 18px;
 
-    font-size: 15px;
+    font-size: 14px;
+}
+
+.faq-question::after {
+    width: 26px;
+    height: 26px;
 }
 
 .faq-answer {
-    padding: 0 30px 22px 2px;
+    margin: -2px 18px 0;
+
+    padding-bottom: 20px;
 
     font-size: 13px;
 }
+```
 
 }
