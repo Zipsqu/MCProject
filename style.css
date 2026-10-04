@@ -1095,3 +1095,11 @@ FAQ Mobile
 ```
 
 }
+
+.status-dot.online {
+    background: #4ade80;
+}
+
+.status-dot.offline {
+    background: #f87171;
+}
