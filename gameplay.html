@@ -1,0 +1,301 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gameplay | Capital Express</title>
+    <meta name="description" content="Capital Express — Discover the kingdoms, gameplay, and upcoming events.">
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Gameplay page additions */
+        .gameplay-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin: 0 auto;
+        }
+
+        .gameplay-logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .gameplay-title h1 {
+            margin: 0;
+        }
+
+        .kingdom-section {
+            margin: 0 auto 48px;
+        }
+
+        .kingdom-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .kingdom-card {
+            text-align: center;
+            align-items: center;
+        }
+
+        .kingdom-avatar {
+            display: block;
+            width: 88px;
+            height: 88px;
+            object-fit: contain;
+            margin: 8px auto 16px;
+        }
+
+        .kingdom-card h3 {
+            margin: 8px 0;
+        }
+
+        .kingdom-card p {
+            margin-bottom: 0;
+        }
+
+        .events-table-wrap {
+            overflow-x: auto;
+            width: 100%;
+        }
+
+        .events-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .events-table th,
+        .events-table td {
+            padding: 14px 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .events-table th {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .empty-events {
+            text-align: center;
+            opacity: 0.75;
+            padding: 28px 16px !important;
+        }
+
+        @media (max-width: 800px) {
+            .kingdom-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 520px) {
+            .gameplay-title {
+                gap: 10px;
+            }
+
+            .gameplay-logo {
+                width: 46px;
+                height: 46px;
+            }
+
+            .kingdom-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            Capital Express
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gameplay.html" class="active">Gameplay</a>
+            <a href="how-to-play.html">How to Play</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- Page introduction -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                MINECRAFT 1.21.1 · NEOFORGE
+            </p>
+
+            <div class="gameplay-title">
+                <img
+                    src="Gallery/logo.png"
+                    alt="Capital Express logo"
+                    class="gameplay-logo"
+                >
+                <h1>Gameplay</h1>
+            </div>
+
+            <p class="tagline">
+                Choose. Build. Conquer.
+            </p>
+
+            <p class="intro">
+                Choose your kingdom, establish your capital, build your
+                industry, and expand your reach through roads, rails,
+                ships, and air. Every kingdom has a place in the world.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Kingdom selection -->
+    <section class="development kingdom-section">
+
+        <div class="section-heading">
+            <span class="eyebrow">Find Your Allegiance</span>
+            <h2>Choose Your Kingdom</h2>
+        </div>
+
+        <div class="kingdom-grid">
+
+            <article class="server-card kingdom-card">
+                <img
+                    src="Gallery/azure_league.png"
+                    alt="Azure League emblem"
+                    class="kingdom-avatar"
+                >
+
+                <span class="card-label">KINGDOM</span>
+                <h3>Azure League</h3>
+
+                <p>
+                    Add the Azure League description here.
+                </p>
+            </article>
+
+            <article class="server-card kingdom-card">
+                <img
+                    src="Gallery/crimson_empire.png"
+                    alt="Crimson Empire emblem"
+                    class="kingdom-avatar"
+                >
+
+                <span class="card-label">KINGDOM</span>
+                <h3>Crimson Empire</h3>
+
+                <p>
+                    Add the Crimson Empire description here.
+                </p>
+            </article>
+
+            <article class="server-card kingdom-card">
+                <img
+                    src="Gallery/ivory_order.png"
+                    alt="Ivory Order emblem"
+                    class="kingdom-avatar"
+                >
+
+                <span class="card-label">KINGDOM</span>
+                <h3>Ivory Order</h3>
+
+                <p>
+                    Add the Ivory Order description here.
+                </p>
+            </article>
+
+            <article class="server-card kingdom-card">
+                <img
+                    src="Gallery/obsidian_dominion.png"
+                    alt="Obsidian Dominion emblem"
+                    class="kingdom-avatar"
+                >
+
+                <span class="card-label">KINGDOM</span>
+                <h3>Obsidian Dominion</h3>
+
+                <p>
+                    Add the Obsidian Dominion description here.
+                </p>
+            </article>
+
+            <article class="server-card kingdom-card">
+                <img
+                    src="Gallery/verdant_pack.png"
+                    alt="Verdant Pack emblem"
+                    class="kingdom-avatar"
+                >
+
+                <span class="card-label">KINGDOM</span>
+                <h3>Verdant Pack</h3>
+
+                <p>
+                    Add the Verdant Pack description here.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Events table -->
+    <section class="development">
+
+        <div class="section-heading">
+            <span class="eyebrow">What's Happening</span>
+            <h2>Upcoming Events</h2>
+        </div>
+
+        <div class="events-table-wrap">
+            <table class="events-table">
+
+                <thead>
+                    <tr>
+                        <th scope="col">Event</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="empty-events">
+                            No events announced yet. Check back soon!
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <span>Capital Express</span>
+        <span>Private Minecraft Project</span>
+    </div>
+</footer>
+
+</body>
+</html>
+```
