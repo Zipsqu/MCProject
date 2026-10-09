@@ -1,7 +1,7 @@
 # MC Project — Modpack
 https://zipsqu.github.io/MCProject/
 
-
+https://www.curseforge.com/minecraft/share/IAmc-1Dl
 
 
 
