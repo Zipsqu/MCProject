@@ -124,55 +124,37 @@
     </section>
 
 
-    <!-- Newsletter -->
-    <section class="development">
+<!-- Events table -->
+<section class="development">
 
-        <div class="section-heading">
-            <span class="eyebrow">Newsletter</span>
-            <h2>Events & Updates</h2>
-        </div>
+    <div class="section-heading">
+        <span class="eyebrow">What's Happening</span>
+        <h2>Upcoming Events</h2>
+    </div>
 
+    <div class="events-table-wrap">
+        <table class="events-table">
 
-        <div class="development-list">
+            <thead>
+                <tr>
+                    <th scope="col">Event</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
 
-            <div class="development-item">
-                <div>
-                    <strong>More to come!</strong>
-                    <span>Soon we will start the countdown to the official opening & annouce first event.</span>
-                </div>
+            <tbody id="events-list">
+                <tr>
+                    <td colspan="3" class="empty-events">
+                        Loading events...
+                    </td>
+                </tr>
+            </tbody>
 
-                <span class="badge testing">
-                    10/10/2026
-                </span>
-            </div>
+        </table>
+    </div>
 
-
-            <div class="development-item">
-                <div>
-                    <strong>Server is now live!</strong>
-                    <span>We now have a working server, countdown starting soon!</span>
-                </div>
-
-                <span class="badge testing">
-                    09/10/2026
-                </span>
-            </div>
-
-
-            <div class="development-item">
-                <div>
-                    <strong>Website is now live!</strong>
-                    <span>Website is now live, we're ready to go!</span>
-                </div>
-
-                <span class="badge testing">
-                    07/10/2026
-                </span>
-            </div>
-
-        </div>
-
-    </section>
+</section>
 
 </main>
 
@@ -255,7 +237,7 @@
                 "Live player information is temporarily unavailable.";
         }
     }
-
+    
     // Check immediately when the page loads
     updateServerStatus();
 
@@ -263,6 +245,7 @@
     setInterval(updateServerStatus, 30000);
 </script>
 
+<script src="events.js" defer></script>
 
 </body>
 </html>
