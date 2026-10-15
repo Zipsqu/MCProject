@@ -8,7 +8,7 @@
 
 const events = [
     {
-        event: "Server is officially open & kingdoms are ready to be claimed!",
+        event: "Everything is ready for the big opening!",
         date: "17.10.2026",
         openingTime: "2026-10-17T12:00:00+01:00"
     }
