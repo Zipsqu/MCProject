@@ -98,4 +98,3 @@ function renderEvents() {
 // Render immediately and update the countdown every second.
 renderEvents();
 setInterval(renderEvents, 1000);
-```
