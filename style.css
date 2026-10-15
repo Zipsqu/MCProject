@@ -746,6 +746,58 @@ footer {
     line-height: 1.6;
 }
 
+/* -------------------------
+   Setup Instructions
+------------------------- */
+
+.setup-instructions {
+    display: grid;
+    gap: 9px;
+    margin-top: 16px;
+}
+
+.setup-instruction {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+
+    padding: 11px 12px;
+
+    background: var(--background-light);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.setup-instruction > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 25px;
+    height: 25px;
+
+    background: rgba(213, 168, 74, 0.10);
+    border: 1px solid rgba(213, 168, 74, 0.25);
+    border-radius: 5px;
+
+    color: var(--accent);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.setup-instruction p {
+    margin: 2px 0 0;
+
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.setup-instruction strong {
+    color: var(--text);
+    font-weight: 600;
+}
 
 /* -------------------------
    Buttons
