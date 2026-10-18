@@ -8,9 +8,9 @@
 
 const events = [
     {
-        event: "Everything is ready for the big opening!",
-        date: "17.10.2026",
-        openingTime: "2026-10-17T12:00:00+01:00"
+        event: "New Content & Community feedback update.",
+        date: "24.10.2026",
+        openingTime: "2026-10-24T12:00:00+01:00"
     }
 
     // Example of adding another event:
@@ -67,7 +67,7 @@ function renderEvents() {
 
                 if (remaining <= 0) {
                     statusCell.textContent =
-                        "The server is officially open!";
+                        "Update Completed!";
                 } else {
                     const days = Math.floor(
                         remaining / 86400000
@@ -83,7 +83,7 @@ function renderEvents() {
                     );
 
                     statusCell.textContent =
-                        `${days}d ${hours}h ${minutes}m ${seconds}s until opening`;
+                        `${days}d ${hours}h ${minutes}m ${seconds}s until update`;
                 }
             }
         } else {
